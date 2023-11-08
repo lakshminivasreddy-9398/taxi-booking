@@ -8,8 +8,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-   <sonar.host.url>http://3.110.169.177:9000/</sonar.host.url>
-  <sonar.login>admin</sonar.login>
+ 
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -45,6 +44,15 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
         </configuration>
       </plugin>
+             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.10.0.2594</version>
+                <configuration>
+                <sonar.host.url>http://3.110.169.177:9000</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+                </configuration>
+            </plugin>
 
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
