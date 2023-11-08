@@ -47,7 +47,7 @@
              <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.10.0.2594</version>                
+                <version>9.8.0.63668</version>                
                 <sonar.host.url>http://3.110.169.177:9000</sonar.host.url>
                 <sonar.login>sqp_32ff159fc2d97ece8cf470a6b4271fe41cab86ae</sonar.login>
                 
